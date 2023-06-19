@@ -12,7 +12,7 @@ def bfs(root):
     queue = deque()
 
     if (root):
-        deque.append(root)
+        queue.append(root)
 
     level = 0
     while len(queue) > 0:
